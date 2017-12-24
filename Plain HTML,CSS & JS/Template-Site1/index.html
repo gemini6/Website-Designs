@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<!-- Font-Awesome -->
+		<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+		</script>
+
+		<script type="text/javascript" src="js/docready.js"></script>
+		<script type="text/javascript" src="js/toggle-side-nav.js"></script>
+	</head>
+	<body>
+	
+		<div id="page-wrapper">
+
+			<nav class="nav" id="top-nav">
+				<p id="nav-brand">Electronics &plus;</p>
+				<ul class="nav-items-list" id="top-nav-items-list">
+					<li class="top-nav-list-item"><a href="#" target="">Home</a></li>
+					<li class="top-nav-list-item"><a href="#" target="">About</a></li>
+					<li class="top-nav-list-item"><a href="#" target="">Service</a></li>
+					<li class="top-nav-list-item"><a href="#" target="">Checkout</a></li>
+					<li class="top-nav-list-item"><a href="#" target="">Contact</a></li>
+				</ul>
+
+				<a class="nav-icon fa fa-shopping-cart" href="#" target="">
+					<span class="nav-icon-txt">Cart</span>
+				</a>
+				<a class="nav-icon fa fa-sign-in" href="#" target="">
+					<span class="nav-icon-txt">Sign In\Sign Up</span>
+				</a>
+
+			</nav>
+			
+			<div id="floating-side-nav-btn-container" class="sticky">
+				<div id="floating-side-nav-btn">
+					<a class="fa fa-bars" href="" onclick="openSideNav()"></a>
+				</div>
+			</div>
+
+			<div id="floating-social-btns-container">
+				<ul>
+					<li><a class="fa fa-facebook-square"></a></li>
+					<li><a class="fa fa-twitter-square"></a></li>
+					<li><a class="fa fa-google-plus-square"></a></li>
+					<li><a class="fa fa-linkedin-square"></a></li>
+					<li><a class="fa fa-youtube-square"></a></li>
+					<li><a class="fa fa-instagram"></a></li>
+					<li><a class="fa fa-pinterest-square"></a></li>
+				</ul>
+			</div>
+
+			<header id="page-header">
+				
+				<div id="header-overlay">
+					<!-- <h1 id="main-header">Electronics &plus;</h1> -->
+					<form id="search-bar">
+						<input id="search-bar-input" type="text" placeholder="Search here..." required>
+						<button id="search-bar-search-btn" class="fa fa-search" type="submit"></button>
+					</form>
+				</div>
+			</header>
+
+			
+
+		<!-- @@@@@@@@@@@@@@@@@ -->
+			<nav class="nav" id="side-nav">
+				<div id="close">
+					<a class="fa fa-bars" onclick="closeSideNav()"></a>
+				</div>
+				<h3 id="side-nav-header">Side Nav</h3>
+				<ul class="nav-items-list" id="side-nav-items-list">
+					<li class="side-nav-list-item"><a>Desktops</a></li>
+					<li class="side-nav-list-item"><a>Laptops</a></li>
+					<li class="side-nav-list-item"><a>Tablets - 10"</a></li>
+					<li class="side-nav-list-item"><a>Tablets - 7"</a></li>
+					<li class="side-nav-list-item"><a>Phones</a></li>
+					<li class="side-nav-list-item"><a>Phones - lg</a></li>
+					<li class="side-nav-list-item"><a>Phones - md</a></li>
+					<li class="side-nav-list-item"><a>Phones - sm</a></li>
+				</ul>
+			</nav>
+			<!-- @@@@@@@@@@@@@@@@@ -->
+
+			<main id="page-main">
+				
+				<section class="main-sub-section" id="main-sub-section1">
+					<h2>Check out the latest devices</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repudiandae corporis, dolorem voluptates libero reiciendis est ab quaerat laborum incidunt praesentium, quae perferendis cumque obcaecati voluptatibus.</p>
+
+					<div id="main-sub-section1-imgs-wrapper">
+						
+						<div class="main-sub-section1-img-container contain" id="desktop-img-container">
+	
+							<h4>Desktops</h4>
+							<img id="desktop" class="main-sub-section1-img" alt="desktop" src="img/desktop.svg">
+							<div class="contain">
+								<p>Check out the latest desktops from top brands</p>
+							</div>
+							<div class="view-btn">
+								<a class="fa fa-eye">
+									<span class="view-btn-txt">View All</span>
+								</a>
+							</div>
+						</div>
+						
+						<div class="main-sub-section1-img-container contain" id="laptop-img-container">
+							<h4>Laptops</h4>
+							<img id="laptop" class="main-sub-section1-img" alt="laptop" src="img/laptop.svg">
+							<div class="contain">
+								<p>Check out the latest desktops from top brands</p>
+							</div>
+							<div class="view-btn">
+								<a class="fa fa-eye">
+									<span class="view-btn-txt">View All</span>
+								</a>
+							</div>
+						</div>
+
+						<div class="main-sub-section1-img-container contain" id="tablet-img-container">
+							<h4>Tablets</h4>
+						    <img id="tablet" class="main-sub-section1-img" alt="tablet" src="img/tablet.svg">
+						    <div class="contain">
+								<p>Check out the latest desktops from top brands</p>
+							</div>
+							<div class="view-btn">
+								<a class="fa fa-eye">
+									<span class="view-btn-txt">View All</span>
+								</a>
+							</div>
+						</div>
+
+						<div class="main-sub-section1-img-container contain" id="#phone-img-container">
+							<h4>Phones</h4>
+							<img id="phone" class="main-sub-section1-img" alt="phone" src="img/phone.svg">
+							<div class="contain">
+								<p>Check out the latest desktops from top brands</p>
+							</div>
+							<div class="view-btn">
+								<a class="fa fa-eye">
+									<span class="view-btn-txt">View All</span>
+								</a>
+							</div>
+						</div>
+							
+						<div class="main-sub-section1-img-container contain" id="#watch-img-container">
+							<h4>Smart Watches</h4>
+							<img id="watch" class="main-sub-section1-img" alt="watch" src="img/watch.svg">
+							<div class="contain">
+								<p>Check out the latest desktops from top brands</p>
+							</div>
+							<div class="view-btn">
+								<a class="fa fa-eye">
+									<span class="view-btn-txt">View All</span>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				<div id="side-by-side-sections-wrapper">
+					<section class="main-sub-section" id="main-sub-section2">
+						<img id="main-sub-section2-img" alt="headphones" src="img/headphones.svg">
+						<h3>Accessories</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae voluptatem suscipit laboriosam vero, quo perspiciatis nemo quisquam sequi quod eius tempore nihil consequuntur illo enim non necessitatibus officia, laborum, quam numquam cupiditate possimus sunt. Beatae earum cum soluta amet.</p>
+						<div class="view-btn">
+							<a class="fa fa-eye">
+								<span class="view-btn-txt">View All</span>
+							</a>
+						</div>
+					</section>
+
+					<section class="main-sub-section" id="main-sub-section3">
+						<img id="main-sub-section3-img" alt="Parts" src="img/circut.svg">
+						<h3>Partss</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptas neque distinctio ullam cum quibusdam saepe, nesciunt blanditiis modi earum perferendis placeat, aspernatur suscipit consectetur debitis quidem rerum optio nulla unde delectus obcaecati. Optio assumenda rem quia molestiae eaque eum.</p>
+						<div class="view-btn">
+							<a class="fa fa-eye">
+								<span class="view-btn-txt">View All</span>
+							</a> 
+						</div>
+					</section>
+					<div class="clear"></div>
+				</div>
+
+				<!-- Main Sub Sections 4, 5 & 6 -->
+
+				<div id="side-by-side-sections-wrapper">
+					<section class="main-sub-section" id="main-sub-section4">
+						<img id="main-sub-section4-img" alt="headphones" src="img/red/data-speed.svg">
+						<h3>Section4 Header</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quae voluptatem suscipit laboriosam vero, quo perspiciatis nemo quisquam sequi quod eius tempore nihil consequuntur illo enim non necessitatibus officia, laborum, quam numquam cupiditate possimus sunt. Beatae earum cum soluta amet.</p>
+					</section>
+					
+					<section class="main-sub-section" id="main-sub-section5">
+						<img id="main-sub-section5-img" alt="Parts" src="img/red/memory.svg">
+						<h3>Section5 Header</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptas neque distinctio ullam cum quibusdam saepe, nesciunt blanditiis modi earum perferendis placeat, aspernatur suscipit consectetur debitis quidem rerum optio nulla unde delectus obcaecati. Optio assumenda rem quia molestiae eaque eum.</p>
+					</section>
+
+					<section class="main-sub-section" id="main-sub-section6">
+						<img id="main-sub-section6-img" alt="Parts" src="img/red/cloud-storage.svg">
+						<h3>Section6 Header</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptas neque distinctio ullam cum quibusdam saepe, nesciunt blanditiis modi earum perferendis placeat, aspernatur suscipit consectetur debitis quidem rerum optio nulla unde delectus obcaecati. Optio assumenda rem quia molestiae eaque eum.</p>
+					</section>
+					
+					<div class="clear"></div>
+				</div>
+
+				<section class="main-sub-section" id="main-sub-section7">
+					<div id="left-content-wrapper">
+						<h2>Somethin Somethin</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt esse aliquam cum, fuga eaque laborum, eius sunt, at vitae, corporis consequuntur et. Tempore, aperiam, harum.</p>
+					</div>
+					
+					<div id="right-content-wrapper">
+						<img src="img/ads/sample-ad1.jpg">
+
+						<div id="ad-overlay"></div>
+					</div>
+					<div class="clear"></div>
+				</section>
+				
+			</main>
+
+			<footer id="page-footer">
+				<section id="location-section">
+					<h3>Location</h3>
+					<img alt="location" src="img/location.svg">
+					<address id="location">
+						<p>1234 Fake Street
+						<br>Yonkers, New York
+						<br>10708</p>
+
+					</address>
+				</section>
+			</footer>
+
+		</div>
+	</body>
+</html>

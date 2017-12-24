@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv = "x-ua-compatable" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<meta name="description" content="practice front-end code">
+		<meta name="author" content="Paul McCarthy">
+		<link href='https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Roboto:400,400i,500,700' rel='stylesheet'>
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="normalize.css">
+		<link type="text/css" rel="stylesheet" href="index.css">
+		
+	</head>
+	<body class="bg-dark" data-spy="scroll" data-target="#page-wrapper" data-offset="100">
+
+		<!-- PAGE WRAPPER -->
+		<div class="container-fluid" id="page-wrapper">
+
+			<!-- TOP NAVBAR -->
+			
+			<nav class="navbar navbar-expand-md navbar-toggleable-sm fixed-top bg-dark navbar-dark" id="top-nav">
+				<a class="navbar-brand text-success" href="#">
+					<img id="navbar-brand-logo" src="logos/my-company.svg"> MyCompany
+				</a>
+				<button class="navbar-toggler" id="top-nav-toggle-btn" data-toggle="collapse" data-target="#top-nav-collapse">
+					<span class="fa fa-bars"></span>
+				</button> 
+				<script type="text/javascript">
+					var top_nav_toggle_btn = document.getElementById('top-nav-toggle-btn');
+					top_nav_toggle_btn.onmouseleave = function() {
+						this.style.outline = 'none';
+					}
+				</script>
+				<div class="collapse navbar-collapse" id="top-nav-collapse">
+					<ul class="nav navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#home-section">
+								<span class="fa fa-home nav-link-icon"></span>
+								Home
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about-section">
+								<span class="fa fa-info-circle nav-link-icon"></span>
+								About Us
+							</a>  
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio-section">
+								<span class="fa fa-briefcase nav-link-icon"></span>
+								Portfolio
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services-section">
+								<span class="fa fa-cog nav-link-icon"></span>	
+								Services
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact-section">
+								<span class="fa fa-phone nav-link-icon"></span>	
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav> <!-- #top-nav -->
+
+			<!-- PAGE HEADER -->
+
+			<header id="page-header">
+
+				<!-- HOME SECTION -->
+
+				<section class="top-level-section first" id="home-section">
+					<div class="container-fluid">			
+						<figure>
+							<img class="img-fluid" id="header-logo" src="logos/my-company.svg"> 
+							<h1 class="text-center" id="header-title">MyCompany</h1>
+							<p class="lead text-center">The number 1 company leading in stuff...</p>
+						</figure>
+						<button class="btn btn-default btn-sm next-section-btn" type="button" onclick="onNextSectionBtnClick()">
+							<span class="fa fa-arrow-down"></span>
+						</button>
+					</div> <!-- .container-fluid --> 
+				</section> <!-- #home-section -->
+
+			</header> <!-- #page-header -->
+
+			<!-- PAGE MAIN -->
+
+			<main id="page-main">
+
+					<!-- ABOUT SECTION -->
+
+					<section class="top-level-section" id="about-section">
+						<div class="container-fluid">
+							<h1 class="text-center top-level-section-title">
+								<span class="fa fa-info-circle top-level-section-icon"></span>
+								About Us
+							</h1>
+							<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+							<button class="btn btn-default btn-sm next-section-btn" type="button" onclick="onNextSectionBtnClick()">
+								<span class="fa fa-arrow-down"></span>
+							</button>
+						</div>
+					</section> <!-- #about-section -->
+
+					<!-- PORTFOLIO SECTION -->
+					
+					<section class="top-level-section" id="portfolio-section">
+						<div class="container-fluid">
+							<h1 class="text-center top-level-section-title">
+								<span class="fa fa-briefcase top-level-section-icon"></span>
+								Portfolio
+							</h1>
+							<p class="lead text-center">A little about us and what we do.</p>
+							<button class="btn btn-default btn-sm next-section-btn" type="button" onclick="onNextSectionBtnClick()">
+								<span class="fa fa-arrow-down"></span>
+							</button>
+						</div>
+					</section> <!-- #portfolio-section -->
+
+					<!-- SERVICES SECTION -->
+
+					<section class="top-level-section" id="services-section">
+						<div class="container-fluid">
+							<h1 class="text-center top-level-section-title">
+								<span class="fa fa-cog top-level-section-icon"></span>
+								Services
+							</h1>
+							<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur.</p>
+							<h2 class="text-center"></h2>
+							<button class="btn btn-default btn-sm next-section-btn" type="button" onclick="onNextSectionBtnClick()">
+								<span class="fa fa-arrow-down"></span>
+							</button>
+						</div>
+					</section> <!-- #services-section -->
+
+					<!-- CONTACT SECTION -->
+
+					<section class="top-level-section" id="contact-section">
+						<div class="container-fluid">
+							<h1 class="text-center top-level-section-title">
+								<span class="fa fa-phone top-level-section-icon"></span>
+								Contact
+							</h1>
+							<button class="btn btn-default btn-sm next-section-btn" type="button" onclick="onNextSectionBtnClick()">
+								<span class="fa fa-arrow-down"></span>
+							</button>
+						</div>
+					</section><!-- #contact-section -->
+			</main> <!-- #page-main -->
+
+			<!-- PAGE FOOTER -->
+			<footer id="page-footer">
+
+				<!-- FOOTER ABOVE -->
+
+				<section class="footer-above top-level-section">
+					<div class="container-fluid">
+						
+					</div>
+				</section>
+
+				<!-- FOOTER ABOVE -->
+
+				<section class="" id="footer-below">
+					<div class="container-fluid">
+						
+					</div>
+				</section>
+
+			</footer> <!-- #page-footer -->
+
+		</div> <!-- #page-wrapper -->
+
+		<script src="jquery.easings.min.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	</body>
+</html>

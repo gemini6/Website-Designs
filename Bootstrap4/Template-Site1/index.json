@@ -1,0 +1,13 @@
+[
+	{
+		name: "Sunny",
+		breed: "Cat",
+		age: 4
+	},
+
+	{
+		name: "Apollo",
+		breed: "Cat",
+		age: 4
+	}
+]
