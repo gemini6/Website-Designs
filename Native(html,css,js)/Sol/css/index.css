@@ -1,0 +1,159 @@
+body {
+    font-family: "Quicksand", "Arial", sans-serif;
+	color: #2a2a2a;
+    background-color: #3e3e3e;
+    padding-top: 60px;
+}
+	  
+a { 
+  text-decoration: none;
+}
+
+#page-wrapper {
+    width: 100%;
+    height: 100%;
+    
+}
+ 
+nav#navbar {
+    background-color: SkyBlue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 46px;
+    z-index: 10000;
+	margin-top: 0;
+	margin-left: 0;
+    margin-bottom: 0;
+	margin-right: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+}
+ 
+a#navbar-brand {
+    background-color: #ffe57f;
+    line-height: 46px;
+    width: 52px;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+	text-align: center;
+	border-right: 1px solid #2a2a2a;
+}
+
+a#navbar-brand:hover {
+  
+}
+
+ul#nav {
+    line-height: 46px;
+    margin-top: 0;
+	margin-left: 0;
+    margin-bottom: 0;
+	margin-right: 0;
+	padding: 0;
+}
+
+ul#nav li.nav-item {
+    background-color: SkyBlue;
+    display: inline-block;
+    height: 46px;
+    margin-top: 0;
+	margin-left: 0;
+    margin-bottom: 0;
+	margin-right: -4px;
+	padding-top: 0;
+	padding-left: 4px;
+	padding-bottom: 0;
+	padding-right: 4px;
+}
+
+ul#nav li.nav-item:hover,
+ul#nav li.nav-item:focus,
+ul#nav li.nav-item:active {
+  background-color: #ffe57f;
+}
+
+ul#nav a.nav-link {
+  background-color: SkyBlue;
+  color: #2a2a2a;
+  text-decoration: none;
+  height: 46px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-left: 4px;
+  padding-bottom: 0;
+  padding-right: 4px;
+}
+
+ul#nav a.nav-link:hover,
+ul#nav a.nav-link:focus,
+ul#nav a.nav-link:active {
+  background-color: #ffe57f;
+  text-decoration: none;
+}
+
+ul#nav a.nav-item:hover a.nav-link,
+ul#nav a.nav-item:focus a.nav-link,
+ul#nav a.nav-item:active a.nav-link{
+  background-color: #ffe57f;
+}
+
+header#page-header {
+    color: SkyBlue;
+	text-align: center;
+}
+
+img#sun {
+   width: 140px;
+   height: 140px;
+   margin-top: 14px;
+   animation-name: sunShine;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   z-index: 100;
+}
+ 
+h1#page-title {
+  text-transform: uppercase;
+  padding: 0;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+p#title-lead {
+  color: #ffe57f;
+  padding: 0;
+  margin-top: 20px;
+  
+}
+
+main#page-main {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer#page-footer {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+p#hours {
+  color: SkyBlue;
+}
+
+p.location {
+  color: SkyBlue;
+}
+

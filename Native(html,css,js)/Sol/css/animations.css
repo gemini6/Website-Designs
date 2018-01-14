@@ -1,0 +1,34 @@
+/* animations.css */
+
+@keyframes sunShine {
+  0% {
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+  }
+  
+  100% {
+	-webkit-transform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+  }
+}
+
+@keyframes spreadLeft {
+  0% {
+	
+  }
+  
+  100% {
+	
+  }
+}
+
+
+@keyframes spreadRight {
+  0% {
+	margin-right: auto;
+  }
+  
+  100% {
+	margin-right: 20px
+  }
+}
