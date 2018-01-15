@@ -7,7 +7,8 @@
 	<title>Sol</title>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Roboto:400,400i,500,700" rel="stylesheet">
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-	<link rel="stylesheet" type="text/css" href="vendor/full-page/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="vendor/full-page/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="css/fullpage-custom-styles.css">
 	<link rel="stylesheet" href="css/index.css"> 
     <link rel="stylesheet" href="css/animations.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -32,59 +33,56 @@
 			<a class="nav-link" href="">inventore</a>
 		  </li>
 		</ul>
+		<button id="navbar-toggle">
+		  <span class="fa fa-bars" i)d="navbar-toggle"></span>
+		</button>
 	  </nav>
+	  
 	  <header class="section" id="page-header">
 	    <img id="sun" src="res/sun.png" alt="sun">
-	    <h1 id="page-title">Cafe Dël Sol</h1>
+	    <h1 class="section-title" id="page-header-title">Sol Dël Terra</h1>
 		<p id="title-lead">Sed ut perspiciatis unde omnis.</p>
 	  </header>
+	  
 	  <main class="section" id="page-main">
-		<!--
-		<ul id="coffee-item-list">
-		  <li class="coffee-item-list-item">
-		    <img src="res/coffee1.svg" alt="coffee" class="coffee">
-		  </li>
-		  <li class="coffee-item-list-item">
-		    <img src="res/coffee2.svg" alt="coffee" class="coffee">
-		  </li>
-		  <li class="coffee-item-list-item">
-		    <img src="res/coffee3.svg" alt="coffee" class="coffee">
-		  </li>
-		</ul>
-		-->
 		
+		<section class="slide coffee-section">
+		  <div class="title-circle">
+		    <img id="coffee-beans" src="res/coffee-beans.svg" alt="cofee-beans">
+		    <h1 class="section-title" id="page-main-title">
+			  Coffee
+		    </h1>
+		  </div>
+		</section>
+		
+		<section class="slide coffee-section">
+		  <h3 class="coffee-name">House Blend</h3>
+		  <img src="res/coffee1.svg" alt="coffee" class="coffee">
+		  <h3 class="coffee-price">&dollar;1.50</h3>
+		</section>
+		
+		<section class="slide coffee-section">
+          <h3 class="coffee-name">Decaf</h3>
+		  <img src="res/coffee2.svg" alt="coffee" class="coffee">
+		  <h3 class="coffee-price">&dollar;1.50</h3>
+		</section>
+		
+		<section class="slide coffee-section">
+          <h3 class="coffee-name">Espresso</h3>
+		  <img src="res/coffee3.svg" alt="coffee" class="coffee">
+		  <h3 class="coffee-price">&dollar;1.50</h3>
+		</section>
+	
 	  </main>
 	  <footer class="section" id="page-footer">
-		<div id="footer-above">
-		  <p id="hours">
-			Open Monday - Friday: 6:00am to 7:00pm
-			<br>Open Saturday - Sunday: 6:00am to 9:00pm
-		  </p>
-		  <p class="location">
-			<span class="fa fa-map-marker"></span>
-			1234 Fake ave. Somewhere, NY 10555
-		  </p>
-		</div>
-		
-		<div id="footer-below">
-          <!--
-		  <p id="farewell">
-		  	<a class="social-link" href="#">
-			  <span class="fa fa-facebook social-icon social-icon-left"></span>
-			</a>
-			<a class="social-link" href="#">
-			  <span class="fa fa-twitter social-icon social-icon-left"></span>
-			</a>
-			Goodbye!
-			<a class="social-link" href="#">
-			  <span class="fa fa-google-plus social-icon social-icon-right"></span>
-			</a>
-			<a class="social-link" href="#">
-			  <span class="fa fa-snapchat social-icon social-icon-right"></span>
-			</a>
-		  </p>
-		  -->
-		</div>
+		<p id="hours">
+	      Open Monday - Friday: 6:00am to 7:00pm
+		  <br>Open Saturday - Sunday: 6:00am to 9:00pm
+		</p>
+		<p class="location">
+		  <span class="fa fa-map-marker"></span>
+		  1234 Fake ave. Somewhere, NY 10555
+		</p>
 	  </footer>
     </div>
 	
