@@ -1,2 +1,83 @@
 /* fullpage-custom-styles.css */
 
+// Fullpage sections nav dot menu.
+
+div#fp-nav {
+
+}
+
+div#fp-nav ul {
+
+}
+
+div#fp-nav ul li {
+
+}
+
+div#fp-nav ul li a {
+	
+}
+
+div#fp-nav ul li a:hover, 
+div#fp-nav ul li a:focus,
+div#fp-nav ul li a:active {
+	
+}
+
+div#fp-nav ul li a span {
+	background-color: SkyBlue;
+}
+
+div#fp-nav ul li a:hover span, 
+div#fp-nav ul li a:focus span,
+div#fp-nav ul li a:active span {
+	background-color: #ffe57f;
+	box-shadow: 0px 0px 5px #111111;
+}
+
+div#fp-nav ul li a.active span {
+	background-color: #ffe57f;
+	box-shadow: 0px 0px 5px #111111;
+	animation-name: navdotPulse;
+	animation-duration: .46s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+// Fullpage sections nav dot menu tooltips.
+
+div.fp-tooltip {
+
+}
+
+// Fullpage slides nav dot menu.
+
+div.fp-slidesNav {
+
+}
+
+div.fp-slidesNav ul {
+	
+}
+
+div.fp-slidesNav ul li {
+	
+}
+
+div.fp-slidesNav ul li a,
+div.fp-slidesNav ul li a.active {
+	
+}
+
+div.fp-slidesNav ul li a:hover,
+div.fp-slidesNav ul li a:focus,
+div.fp-slidesNav ul li a:active,
+div.fp-slidesNav ul li a.active:hover,
+div.fp-slidesNav ul li a.active:focus,
+div.fp-slidesNav ul li a.active:active {
+
+}  
+
+div.fp-slidesNav ul li a span {
+	background-color: #ffe57f;
+}

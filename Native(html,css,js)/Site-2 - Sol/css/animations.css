@@ -1,11 +1,6 @@
 /* animations.css */
 
 @keyframes sunShine {
-  0% {
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
-  }
-  
   100% {
 	-webkit-transform: scale(1.2, 1.2);
 	transform: scale(1.2, 1.2);
@@ -13,13 +8,15 @@
 }
 
 @keyframes sunSpin {
-  0% {
-	-webkit-transform: rotate(0deg);
-	transform: rotate(0deg);
-  }
-  
   100% {
 	-webkit-transform: rotate(360deg);
 	transform: rotate(360deg);
   }
+}
+
+@keyframes navdotPulse {
+	100% {
+	  -webkit-transform: scale(1.2, 1.2);
+	  transform: scale(1.2, 1.2);
+	}
 }
